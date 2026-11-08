@@ -5,6 +5,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![N.E.K.O](https://img.shields.io/badge/N.E.K.O-plugin-ff69b4)
 ![Python](https://img.shields.io/badge/python-3.11-3776AB)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 N.E.K.O 自带的点歌台经常因为版权、会员或曲库限制搜不到歌、放不出来。这个插件把音源换成 **B 站公开视频**：用户说“点一首晴天”，插件会搜索 B 站、用 yt-dlp 提取最佳音频、下载到本地，再通过 N.E.K.O 原生播放协议交给播放器。
 
@@ -207,6 +208,7 @@ bilibili_music/
 ├── plugin.toml            # N.E.K.O 插件清单
 ├── requirements.txt       # 普通 Python 环境的依赖清单
 ├── README.md
+├── LICENSE                # MIT License
 ├── static/
 │   ├── index.html
 │   └── audio/             # 下载缓存（首次点歌后生成）
@@ -392,5 +394,6 @@ python bootstrap_deps.py --target-python 3.11
 
 ## License
 
-暂未指定开源许可证。发布到 GitHub 前建议补充一个 `LICENSE`
-（例如 MIT）；在补充之前，默认保留所有权利。
+本项目采用 [MIT License](LICENSE)。
+
+Copyright (c) 2026 bilibili_music contributors
