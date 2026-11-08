@@ -1,0 +1,20 @@
+[plugin]
+id = "bilibili_music"
+name = "B站音源点歌"
+description = "用B站做音源的点歌插件：搜索第一首匹配视频，提取最佳音频流并交给 N.E.K.O 播放。"
+short_description = "Play songs from Bilibili in N.E.K.O."
+keywords = ["点歌", "点歌台", "B站", "bilibili", "音乐", "播放", "music", "song", "play"]
+version = "1.0.0"
+type = "plugin"
+entry = "plugin.plugins.bilibili_music:BilibiliMusicPlugin"
+
+[plugin.author]
+name = "N.E.K.O User"
+
+[plugin.sdk]
+recommended = ">=0.1.0,<0.2.0"
+supported = ">=0.1.0,<0.3.0"
+
+[plugin_runtime]
+enabled = true
+auto_start = false
